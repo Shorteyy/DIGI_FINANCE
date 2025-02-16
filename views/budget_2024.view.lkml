@@ -83,6 +83,7 @@ view: budget_2024 {
   }
 
   measure: value_sum {
+    label: "Budget"
     type: sum
     sql: ${value} ;;
     drill_fields: [accountnr, analytical_code, company__account, date_date]
