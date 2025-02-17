@@ -16,6 +16,12 @@ view: budget_2024 {
     primary_key: yes
   }
 
+  dimension: logo {
+    type: string
+    sql: 1 ;;
+    html: <img src="https://www.digi-belgium.be/_next/static/media/logo.50f6bfc4.svg"></img> ;;
+  }
+
   dimension: analytical_code {
     type: string
     sql: ${TABLE}.`Analytical Code` ;;
